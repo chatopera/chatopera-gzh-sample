@@ -18,4 +18,4 @@ export WECHAT_GZH_KEY=YOUR_GZH_KEY
 [ -z "${BASH_SOURCE[0]}" -o "${BASH_SOURCE[0]}" = "$0" ] || return
 cd $baseDir/../app
 npm install
-npm start
+DEBUG=chatopera:gzh* npm start
