@@ -1,0 +1,34 @@
+{
+  "name": "chatopera-gzh-sample",
+  "description": "Connect Chatopera Bot to Wechat Public Accout",
+  "author": "Hai Liang Wang <hain@chatopera.com>",
+  "homepage": "https://bot.chatopera.com/",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev:start": "DEBUG=wx* node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@chatopera/sdk": "^1.1.2",
+    "co-wechat": "^2.3.0",
+    "co-wechat-api": "^3.8.1",
+    "date-fns": "^1.29.0",
+    "debug": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "figlet": "^1.2.0",
+    "koa": "^2.1.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-busboy": "^1.1.1",
+    "koa-mount": "^4.0.0",
+    "koa-ping": "^0.1.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.5",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
